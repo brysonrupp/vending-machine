@@ -33,6 +33,15 @@
         </div>
       </div>
     </div>
+    <section class="row justify-content-center p-3">
+      <button class="col-3 fs-3 btn btn-primary" onclick="app.vendingController.addMoney()">coins</button>
+      <h3 id="money"></h3>
+    </section>
+    <!-- // onclick="app.vendingController.subMoney()" this is not working in line below -->
+    <section class="row justify-content-between p-3" onclick="app.vendingController.subMoney()" id="snacks">
+      <!-- <h2>name:</h2>
+      <h4>price:</h4> -->
+    </section>
   </main>
   <footer class="bg-dark text-light">
     <div class="text-center no-select">
